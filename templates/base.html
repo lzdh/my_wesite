@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
+    <!-- <base href="/my_wesite/"> -->
     <meta charset="UTF-8">
-    <title>Jessie Liu</title>
+    <meta http-equiv="Content-Language" content="zh-CN, en">
+    <title>刘张代红 Jessie Liu</title>
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
     <header>
-        <h1>Jessie Liu</h1>
+        <h1>
+            刘张代红 Jessie Liu
+        </h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="publications.html">Publications</a>
-            <a href="patents.html">Patents</a>
-            <a href="awards.html">Awards</a>
-            <a href="personal.html">Personal Life</a>
+            <a href="index.html">首页 Home</a>
+            <a href="publications.html">论文 Publications</a>
+            <a href="patents.html">专利 Patents</a>
+            <a href="awards.html">奖项 Awards</a>
+            <a href="activities.html">学术活动 Academic Activities</a>
+            <a href="personal.html">个人生活 Personal Life</a>
         </nav>
     </header>
 
     <main>
-        <img src="images/selfie.JPG" alt="Jessie Liu" style="width:200px; height:auto; border-radius:50%; border: 2px solid #343a40;">
-        <p>Welcome! I am Jessie Liu, a machine learning scientist working on healthcare AI.</p>
+        {% block content %}{% endblock %}
     </main>
 
     <footer>
-        <p>© 2025 Jessie Liu</p>
+        <p>© 2025 刘张代红 Jessie Liu</p>
     </footer>
 </body>
 </html>
