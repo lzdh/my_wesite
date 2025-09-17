@@ -41,3 +41,35 @@ footer {
     background: #eee;
     margin-top: 20px;
 }
+
+.hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin: 32px 0;
+    justify-items: center;
+}
+
+.hobby-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(52,58,64,0.08);
+    padding: 24px 16px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.hobby-img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(52,58,64,0.12);
+    margin-bottom: 12px;
+}
+
+.hobby-desc {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 8px;
+}
